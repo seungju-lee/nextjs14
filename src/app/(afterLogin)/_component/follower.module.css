@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.container h1 {
+  padding-bottom: 20px;
+}
+
+.container li {
+  list-style-type: none;
+  padding-bottom: 20px;
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.imageWrapper {
+  border-radius: 50%; /* 부모 요소에 반지름을 설정하여 둥글게 만듦 */
+  overflow: hidden; /* 자식 요소가 부모의 경계를 벗어나지 않게 함 */
+  width: 50px;
+  height: 50px;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roundedImage {
+  border-radius: 50%; /* 이미지 자체를 둥글게 만듦 */
+}
+
+.followerTextSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.followerName {
+  font-size: 18px; /* 큰 폰트 크기 */
+  margin: 0; /* 기본 마진 제거 */
+  font-weight: bold; /* 볼드체 적용 (옵션) */
+}
+.followerTagName {
+  color: #888888; /* 회색 텍스트 색상 */
+  font-size: 12px; /* 작은 폰트 크기 */
+  margin: 0; /* 기본 마진 제거 */
+}

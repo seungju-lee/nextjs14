@@ -1,0 +1,28 @@
+.container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background-color: white;
+}
+
+.container:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+}
